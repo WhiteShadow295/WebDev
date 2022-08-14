@@ -1,0 +1,103 @@
+/* edit by wei jie */
+button{
+    width: auto;
+}
+
+.login{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background:linear-gradient(black,transparent,transparent,transparent,transparent,black), url(login&signin/login&singup-pic_edited.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+
+}
+
+.login-form{
+    background-color: white;
+    height: 400px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.login-form form{
+    width: 100%;
+    display: flex;
+}
+
+.login-form h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.login-form h3{
+    text-align: center;
+    justify-content: center;
+}
+.login-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login-form button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #0DB14B;
+    border: none;
+    color: whitesmoke;
+}
+
+input{
+    margin: 0 20px;
+    padding: 5px 0 5px 3px;
+}
+
+label{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.all-input{
+    border-radius: 5px;
+    border:none;
+    background-color: whitesmoke;
+}
+
+a{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.link-style{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 500px){
+
+    label{
+        font-size: 20px;
+    }
+    p{
+        font-size: 10px;
+    }
+
+
+}
+

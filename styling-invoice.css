@@ -1,0 +1,93 @@
+
+#logo{
+    text-align: center;
+    padding: 10px 0 0 0;
+    
+}
+table{
+    margin: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+    padding: 2px;
+
+}
+th{
+    font-size: 18px;
+    font-weight: bold;
+}
+td{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+h4{
+    font-size: 15px;
+    
+    
+}
+
+#head div{
+    padding:0 20px;
+}
+
+#head button{
+    padding:3px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #0DB14B;
+    border: 2px solid #105229;
+}
+#head button:hover{
+    
+    background-color: #105229;
+
+}
+
+#invoice{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: whitesmoke;
+    top: 0;
+    left: 0;
+
+}
+
+.invoice{
+    background-color: white;
+    height: 450px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+@media print {
+    #invoice{
+        height: 40vh;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    #invoice{
+        height: 55vh;
+    }
+  
+  
+}

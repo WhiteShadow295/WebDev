@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="styling.css"> 
+        <link rel="stylesheet" href="styling-homepage.css"> 
+        <link rel="icon" href="icons/shop.svg"> <!-- https://www.flaticon.com/free-icon/shop_3225191?term=mart&page=1&position=22&page=1&position=22&related_id=3225191&origin=search -->
+        <title>88 Freshmart</title>
+      </head>
+    
+    <body>
+      <!-- pop up boxes -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>We have the best delivery service in town.</p>
+          <img src="img/delivery1.jpg" atl="The best delivery in town"/>
+        </div>
+      
+      </div>
+            <!--header-->
+        <header class="main-head">
+            <h1 id="logo">88 Freshmart</h1>
+            <div id="nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="foodbank.html">Food bank</a></li>
+                    <li><a href="cart.html">CART</a></li>
+                    <li><a href="sign-in.html">SIGN IN</a></li>
+                    
+                </ul>
+            </nav>
+            </div>
+        </header>
+        <div class='header-space'></div>
+        <!-- slideshow -->
+        
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <a href="product.html"><img  src="slideshow/fish.jpg" ></a>
+            </div>
+            
+            <div class="mySlides fade">
+              <a href="product.html"><img src="slideshow/fruit.jpg" ></a>
+            </div>
+            
+            <div class="mySlides fade">
+              <a href="product.html"><img src="slideshow/meat.jpg" ></a>
+            </div>
+
+            <div class="mySlides fade">
+              <a href="product.html"><img src="slideshow/vegetable.jpg" ></a>
+            </div>
+
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span>  
+            </div>
+            
+            
+
+         <!-- link direct to store -->
+         <section class="shopping">
+           
+          <h2>The Freshest mart in city</h2>
+          <h4>
+              Start your shopping at an afforable price with <span>88 Freshmart</span>
+          </h4>
+          <button><a id="shop" href="product.html">SHOP NOW</a></button>
+      </section>
+          
+
+        <!--direct link to foodbank,member,recipe-->
+        <div id="direct-link">
+
+            <div class="cards">
+
+                <div class="card" id="box1">
+                  <div class="container">
+                    <img src="card/foodbank.jpg" />
+                  <div class="caption">
+                    <h2>food bank</h2>
+                    <p>In order to help the peoples we had provide free delivery service </p>
+                    <a href="foodbank.html">Read More</a>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="card" id="box2">
+                  <div class="container" >
+                    <img src="card/member.jpg" />
+                  <div class="caption">
+                    <h2>member</h2>
+                    <p>Let's join our member today!</p>
+                    <a href="membership.html">Read More</a>
+                  </div>
+                </div>
+                </div>
+
+                <div class="card" id="box3">
+                  <div class="container">
+                    <img src="card/recipe.jpg" />
+                  <div class="caption">
+                    <h2>recipe</h2>
+                    <p>Fresh ingredient cannot without a recipe.</p>
+                    <a href="recipe.html">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            
+
+           <section id="area">
+
+                <h3>check whether we deliver to your area</h3>
+                <img id="" src="img/delivery-man.png"/>
+                <p>During MCO, we deliver to certain areas only. Please <br/> enter your postal code.</p>
+                <input id="poscode"  placeholder="Enter postal code" name="poscode">
+                <input id="check" type="submit" value="Check" onclick="check()">
+                <script src="index.js"></script>
+                
+           </section>
+           
+           <section id="navlist">
+            <nav>
+              <ul>
+                <li><a href="aboutus.html">about us</a></li>
+                
+                <li>
+                  <label>contact us</label> 
+                  <br/><br/>
+                  <label class="emailphone">Email : <a  href="mailto:freshmart@88.com">freshmart@88.com</a></label>
+                  <br/>
+                  <label  class="emailphone">Phone : <a  href="tel:0123456789">0123456789</a></label>
+                </li>
+                <li><a href="review.html">review</a></li>
+              </ul>
+
+              
+            </nav>
+          </section>
+
+        <footer id="footer">88 Freshmart &copy; 2021 (K) </footer>
+
+    </body>
+    
+    
+    
+    
+</html>

@@ -1,0 +1,87 @@
+/*edit by xin yi*/
+
+h2{
+  text-align: center;
+  padding: 20px;
+}
+
+
+table{
+  width :100%;
+  padding: 20px;
+  text-align: left;
+}
+thead,tfoot{
+  padding: 5px 0;
+}
+
+
+thead th{
+  font-size: 25px;
+  text-align: center;
+  
+}
+tfoot th{
+  font-size: 25px;
+  text-align: right;
+}
+tbody td{
+  font-size: 20px;
+  text-align: center;
+}
+tbody td img{
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+.tot_amount{
+  width: 15%;
+  border:none;
+}
+
+.quantity{
+  width: 30%;
+}
+
+.x{
+  cursor: pointer;
+}
+
+.checkout{
+  text-align: right;
+  padding: 20px 0;
+}
+
+.checkout button{
+  background-color: #0DB14B;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+@media only screen and (max-width: 500px){
+  thead th{
+    font-size: 12px; 
+    font-weight: bold;
+  }
+  tfoot th{
+    font-size: 13px;
+    font-weight: bold;
+  }
+  tbody td{
+    font-size:8px;
+    font-weight: bold;
+  }
+  tbody td img{
+    width: 150px;
+    height: 90px;
+  }
+  p{
+    font-size: 12px;
+  }
+
+  
+
+}

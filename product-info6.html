@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="styling-product-info.css">
+    <link rel="icon" href="icons/shop.svg"> <!-- https://www.flaticon.com/free-icon/shop_3225191?term=mart&page=1&position=22&page=1&position=22&related_id=3225191&origin=search -->
+    <title>88 Freshmart</title>
+
+</head>
+<body>
+<div id="shadow" style="height: 100%; width:auto;">
+
+    <!--header-->
+<header class="main-head">
+    <h1 id="logo">88 Freshmart</h1>
+    <div id="nav">
+    <nav>
+        <ul>
+            <li><a href="homepage.html">HOME</a></li>
+            <li><a href="foodbank.html">Food bank</a></li>
+            <li><a href="cart.html">CART</a></li>
+            <li><a href="sign-in.html">SIGN IN</a></li>
+            
+        </ul>
+    </nav>
+    </div>
+</header>
+<div class="header-space"></div>
+<section class="product-info">
+
+    <img src = "product/oranges.jpg" alt="oranges">
+
+    <div class="main-info">
+    <div>
+    <h2>NAVEL SOUTH AFRICA ORANGES 3 PCS</h2>
+    </div><br>
+
+    <div>
+    <h3><span>Price</span> &nbsp;&nbsp; RM 10.00</h3>
+    </div>
+
+    <div>
+    <span>Quantity</span>
+    <input type="number" value="1" min="1" max="50"/>
+    </div>
+
+    <br><button onclick="location.href='cart.html'">Add to Cart</button>
+</div>
+
+    <div id="content">
+    <div>  
+        <div class="padding">
+        <h4>Product Specifications</h4>
+       <div class="product-spec">
+            <p>Category: <span>Fruit</span> </p>
+            <p>Stock left: <span>60 </span> </p>
+    </div>
+</div>
+    </div>
+
+    <div>
+        <div class="padding">
+        <h4>Product Description</h4>
+        <div class="product-spec">
+            <p>- HALAL</p>
+            <p>- Vacuum Pack</p>
+            <p>- Order delivery with Ice Cooler Box</p>
+            <p>- Next-day Delivery or 2-Days delivery during <br/>
+             peak period like MCO within Kuala Lumpur <br/>and Selangor area.</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    <br>
+</section>
+<section id="area">
+
+    <h3>check whether we deliver to your area</h3>
+    <img src="img/delivery-man.png"/>
+    <p>During MCO, we deliver only to certain areas. Please <br/> enter your postal code.</p>
+    <input id="poscode" type="text" placeholder="Enter postal code" name="poscode">
+    <input id="check" type="submit" value="Check" onclick="check()">
+    <script src="index.js"></script>
+</section>
+
+<section id="navlist">
+<nav>
+  <ul>
+    <li><a href="aboutus.html">about us</a></li>
+    <li>
+      <label>contact us</label> 
+      <br/><br/>
+      <label>Email :</label>  <a class="emailphone" href="mailto:freshmart@88.com">freshmart@88.com</a>
+      <br/>
+      <label>Phone :</label> <a  class="emailphone" href="tel:0123456789">0123456789</a>
+    </li>
+    <li><a href="review.html">review</a></li>
+  </ul>
+</nav>
+</section>
+
+</div>
+<footer id="footer">88 Freshmart &copy; 2021 (c) </footer>
+</body>
+</html>

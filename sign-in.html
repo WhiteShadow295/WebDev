@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="styling.css">
+        <link rel="stylesheet" href="styling-sign-in.css">
+        <link rel="icon" href="icons/shop.svg">
+        <title>88 Freshmart</title>
+        <script src="login.js"></script>
+  </head> 
+  <body>
+      <section class="login">
+      <div class="login-form">
+     <form action="afterLogin/homepage.html" name="loginForm" id="loginForm" method="GET" class="login-form">
+     <h2>Login</h2>
+     <label for="email"><b>Email :</b></label>
+     <input class="all-input" id="email" type="email" placeholder="Enter Email" name="email" required>
+     <br>
+
+     <label for="password"><b>Password :</b></label>
+     <input class="all-input" id="password" type="password" placeholder="Enter Password" name="password" required>
+     <br>
+
+     <label><input type="checkbox" checked="checked" name="remember"> Remember Me</label>
+     <br>
+     <div class ="login-button">
+    <button onclick="location.href='index.html'">Back</button>
+     <button id="button" onclick="login()" type="submit">Login</button>
+     <br>
+     </div>
+     <br>
+     <br>
+     <div class="link-style">
+     <p><a href="#" id="forget-password">Forgot password?</a></p><br>
+     <p><a href="sign-up.html" id="forget-password">Sign Up?</a></p>
+
+    </div>
+   </form>
+   </div>
+</section>
+    </body>
+</html>

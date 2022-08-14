@@ -1,0 +1,110 @@
+/*edit by xinyi*/
+h2{
+  text-transform: uppercase;
+}
+
+#whiteflag {
+  display: flex;
+  margin: 50px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 50px;
+  text-align: left;
+}
+
+
+#whiteflag legend{
+  text-align: center;
+  padding: 30px 10px;
+  letter-spacing: 5px;
+}
+
+#whiteflag h5{
+  padding: 5px;
+  font-weight: normal;
+}
+
+
+
+
+#whiteflag-package{
+  min-height: 50vh;
+  background: url('foodbank/foodbank.jpg');
+  background-position: center;
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+
+}
+
+.cards-package {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 50vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+  
+.card-package {
+  text-align: center;
+  flex: 1 1 20rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+  }
+
+.card-icon-whiteflag {
+  background:#0DB14B;
+}
+  
+.cards-package img {
+  max-width: 20%;
+  margin: 2rem;
+  }
+
+
+.card-package h4,
+.card-package p {
+  padding: 1rem;
+  line-height: 1.8;
+  }
+
+.card-package a button{
+  padding: 5px;
+  margin: 10px;
+  background-color: #0DB14B;
+  border-radius:20px;
+  color: white;
+  border: 2px solid #0b7734;
+  cursor: pointer;
+
+}
+  
+
+@media only screen and (max-width: 500px) {
+
+  h5{
+     text-align: justify;
+      padding: 3px;
+      font-weight: normal;
+      font-size: 23px
+  }
+  li{
+      list-style-type: none;
+  }
+  .card-package ul{
+      padding:5px;
+  }
+    
+
+   
+
+
+
+}

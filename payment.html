@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="styling.css">
+        <link rel="stylesheet" href="styling-payment.css">
+        <link rel="icon" href="icons/shop.svg">
+        <title>88 Freshmart</title>
+        
+  </head> 
+  <body>
+    <section class="payment">
+
+    <div class="payment-form">
+      <h2>Payment</h2>
+      <div>
+        <form action="invoice.html" name="paymentForm" id="paymentForm" method="GET" class="payment-form">
+          <h4>Customer Details</h4>
+          <label><b>Name         :</b> </label><input class='align'type='text' name='name'><br>
+          <label><b>Phone number :</b> </label><input class='align'maxlength='17'type='text' name='phone_number'><br>
+          <label><b>address      :</b> </label><input class='align'size='35'type='text'name='address'><br>
+          <label><b>Poscode      :</b> </label><input class='align'maxlength='5' type='text' name='poscode'><br>
+          <label><b>City         :</b> </label><input class='align'type='text'name='city'><br>
+          <label><b>State        :</b> </label><input class='align'type='text'name='state'><br>
+          </form>
+      </div>
+       <div>
+            <h4>Card details</h4>
+            <input class='align1' type='text'name='card_number'placeholder='Card Number'><br>
+            
+            <div>
+            <input class='align2' size='3',maxlength='2'type='text'name='mm'placeholder='MM'>
+            <input class='align2' size='3',maxlength='4'type='text'name='yyyy'placeholder='YYYY'>
+            <input class='align2' size='3',maxlength='3'type='text'name='ccv'placeholder='CCV'><br><br>
+            </div>
+            
+            <a href="invoice.html"><button>pay</button></a>
+        </div>
+
+       
+           </div>
+          </form>
+    </div>
+    </section>
+    </body>
+</html>
