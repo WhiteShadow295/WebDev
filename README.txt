@@ -1,5 +1,4 @@
-the website is not final but all the features including mobile responsive is same as the final.
-http://88freshmart.lovestoblog.com/
+This is my first assignment for my diploma program.
 
 login email and password.
 Username : user1@gmail.com
